@@ -647,3 +647,63 @@ footer figcaption {
     color: rgb(19, 19, 24);
     font-weight: 300;
 }
+
+
+
+
+/* Resposive Section */
+
+
+/* Mobile Devices */
+
+@media screen and (max-width: 600px) {
+    .banner-button-container,
+    .tours-container,
+    .destination-row1,
+    .why-banner1,
+    .place-container,
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .banner-button-container {
+        align-items: center;
+    }
+
+    .destination-row2 {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .destination-row2,
+    .destination-row3 h2.section-title {
+        text-align: center;
+    }
+
+    .destination-image3,
+    .destination-image4,
+    .destination-image5,
+    .destination-image6,
+    .destination-image7 {
+        width: 100vw;
+    }
+
+    .destination-row3 {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .why-banner2>div {
+        margin: 0px;
+    }
+
+    .place-container img {
+        width: 100vw;
+    }
+
+    .newsletter-container {
+        text-align: center;
+    }
+
+    footer>hr {
+        margin: 50px 20px;
+    }
+}
