@@ -8,6 +8,7 @@
 
 body {
     max-width: 100%;
+    margin: 0 20px;
 }
 
 
@@ -429,6 +430,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    border-radius: 16px;
 }
 
 .deals-image2 {
@@ -436,6 +438,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    border-radius: 16px;
 }
 
 .deals-box {
@@ -534,6 +537,58 @@ body {
     margin-bottom: 100px;
 }
 
+.place-image {
+    background: url(./Images/Group\ 40089.png) no-repeat;
+    border-radius: 16px;
+}
+
+.place-image h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 150px;
+}
+
+.fa-pause,
+.fa-volume-xmark,
+.fa-expand,
+.fa-ellipsis-vertical {
+    color: rgb(255, 255, 255);
+}
+
+.place-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.place-icon1 {
+    display: flex;
+    gap: 12px;
+}
+
+.place-icon-text {
+    color: rgb(243, 243, 243);
+    font-size: 0.875rem;
+}
+
+.place-icon2 {
+    display: flex;
+    gap: 16px;
+}
+
+.place-progress1 {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 20px 450px 0 20px;
+}
+
+.place-progress2 {
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    margin: 0 20px 0 120px;
+}
 
 /* Newsletter Section */
 
@@ -568,7 +623,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 200px; */
     border-radius: 16px;
 
 }
@@ -600,7 +654,7 @@ body {
     position: absolute;
     width: 324px;
     height: 120px;
-    transform: rotate(-19.63deg) translate(140%,330%);
+    transform: rotate(-19.63deg) translate(130%,300%);
 }
 
 
