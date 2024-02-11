@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish",sans-serif;
+}
+
+body {
+    max-width: 100%;
+}
+
+
+/* Shared Styles */
+
+
+.section-title {
+    color: rgb(19, 19, 24);
+    font-size: 2.5rem;
+}
+
+.section-description {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+/* Header,Navbar and Banner Section */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: #FF5400;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-logo img {
+    /* max-width: 35px; */
+}
+
+.nav-content {
+
+}
+.nav-content>ul {
+    display: flex;
+}
+
+.nav-content li {
+    list-style: none;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+    font-size: 1.125rem;
+}
+
+.nav-content-span {
+    color: rgb(255, 84, 0);
+}
+
+.banner-image {
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 60px;
+}
+
+.banner-image-overlay {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
+    border-radius: 16px;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.banner-description {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    top: 114px;
+}
+
+.banner-button-container {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 16px;
+}
+
+.banner-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 48px 320px 0 320px;
+    position: relative;
+    bottom: 150px;
+}
+
+.banner-button-text {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgba(19, 19, 24, 0.5);
+    width: 174px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.banner-button-text:first-child {
+    
+}
+
+.banner-button-text:last-child {
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner-button-text span {
+    display: flex;
+}
+
+
+/* Tours Section */
+
+
+
+.tours-container{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tours-container li {
+    margin-top: 16px;
+    position: relative;
+    left: 20px;
+}
+
+.tours {
+    /* margin-top: 100px;
+    display: flex;
+    flex-direction: column; */
+}
+
+.tours > .section-description {
+    margin-top: 24px;
+}
+
+.tours .section-description {
+    line-height: 26px;
+}
+
+.tours-button {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    text-align: center;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 15px 35px;
+    margin-top: 32px;
+}
+
+.tours-image img {
+    width: 100%;
+}
+
+
+/* Destination Section */
+
+
+.destination-container {
+    margin-top: 100px;
+}
+
+.destination {
+    text-align: center;
+}
+
+.destination .section-description {
+    margin-top: 24px;
+}
+
+
+.destination-row1 {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.destination-row1 .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 200px;
+}
+
+
+.destination-image1 {
+    background: url(./Images/Rectangle\ 5.png) no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    width: 100%;
+}
+
+.destination-image2 {
+    background: url(./Images/Rectangle\ 8.png) no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    width: 100%;
+}
+
+.destination-row2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.destination-row2 .section-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 150px;
+}
+
+.destination-image3 {
+    background: url(./Images/Rectangle\ 6.png) no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+}
+
+.destination-image4 {
+    background: url(./Images/Rectangle\ 7.png) no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;
+}
+
+.destination-image5 {
+    background: url(./Images/Rectangle\ 9.png) no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+}
+
+.destination-row3 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.destination-row3 .section-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 150px;
+}
+
+.destination-row3>.destination-image6 .section-title {
+    margin: 200px 150px;
+}
+
+.destination-row3>.destination-image7 .section-title {
+    margin: 200px 350px;
+}
+
+.destination-image6 {
+    background: url(./Images/Rectangle\ 11.png) no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;
+}
+
+.destination-image7 {
+    background: url(./Images/Rectangle\ 10.png);
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 3;
+}
+
+
+/* Why Section */
+
+
+
+.why-container {
+    margin-top: 100px;
+}
+
+.why {
+    text-align: center;
+}
+
+.why .section-description {
+    margin-top: 24px;
+}
+
+.why-banner1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.why-bannerA {
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 128px 55px 32px 32px;
+    width: 100%;
+}
+
+.why-bannerB {
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 128px 55px 32px 32px;
+    width: 100%;
+}
+
+.why-banner2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.why-banner2 > div {
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    padding: 128px 55px 32px 32px;
+}
+
+
+
+
+/* Deals Section */
+
+
+
+.deals-container {
+    margin-top: 100px;
+}
+
+.deals {
+    text-align: center;
+}
+
+.deals .section-description {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.deals-image-container img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.deals-button {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 14px 22px;
+    margin-top: 48px;
+    margin-bottom: 100px;
+}
+
+.deals-image1 {
+    background: url(./Images/Group\ 39.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.deals-image2 {
+    background: url(./Images/Group\ 40.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.deals-box {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    margin: 55px;
+    margin-left: 535px;
+}
+
+.deals-box .section-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+
+.deals-box h3 {
+    color: rgb(255, 84, 0);
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-box-content {
+    padding: 50px;
+}
+
+.deals-box-button {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 14px 24px;
+}
+
+.deals-icon {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.deals-icon1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.deals-icon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.deals-icon3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+/* Place Section */
+
+.place-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place .section-title {
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.place-container li {
+    margin-top: 16px;
+    position: relative;
+    left: 20px;
+}
+
+.place-button {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 14px 42px;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+
+
+/* Newsletter Section */
+
+
+
+.newsletter-container {
+    display: flex;
+    gap: 25px;
+}
+
+.newsletter {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.newsletter-input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 16px 250px 16px 20px;
+    margin-bottom: 16px;
+}
+
+.newsletter hr {
+    margin-bottom: 24px;
+}
+
+.newsletter-image {
+    background-image: url('./Images/Rectangle\ 8\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 200px; */
+    border-radius: 16px;
+
+}
+
+.newsletter-button {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    margin-top: 24px;
+}
+
+.newsletter-button p {
+    font-size: 1.5rem;
+}
+
+.newsletter-button h3 {
+    font-size: 2rem;
+}
+
+.newsletter .newsletter-button {
+    padding: 14px 150px;
+    font-weight: 800;
+}
+
+
+.newsletter-image .newsletter-button {
+    position: absolute;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.63deg) translate(140%,330%);
+}
+
+
+
+/* Footer Section */
+
+
+footer {
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 110px;
+}
+
+footer .section-description {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+footer hr {
+    margin-top: 50px;
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    margin: 50px 285px;
+}
+
+footer figcaption {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 110px;
+    color: rgb(19, 19, 24);
+    font-weight: 300;
+}
