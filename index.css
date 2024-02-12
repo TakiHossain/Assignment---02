@@ -465,6 +465,7 @@ body {
     font-size: 1.25rem;
     font-weight: 800;
     margin-bottom: 24px;
+    margin-top: 16px;
 }
 
 .deals-box-content {
@@ -613,6 +614,10 @@ body {
     padding: 40px;
 }
 
+.newsletter .section-description {
+    margin-top: 16px;
+}
+
 .newsletter-input {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
@@ -622,7 +627,8 @@ body {
 }
 
 .newsletter hr {
-    margin-bottom: 24px;
+    margin: 24px 0;
+    color: rgba(19, 19, 24, 0.1);
 }
 
 .newsletter-image {
@@ -731,6 +737,10 @@ footer figcaption {
         line-height: 24px;
     }
 
+    .nav-logo, .nav-title {
+        gap: 10px;
+    }
+
     .banner-button-container,
     .tours-container,
     .destination-row1,
@@ -800,6 +810,22 @@ footer figcaption {
 
     /* Destination Section */
 
+    .destination-row1 .section-title {
+        margin: 170px;
+    }
+
+    .destination-row2 .section-title {
+        margin: 120px 0px;
+    }
+
+    .destination-row3>.destination-image6 .section-title {
+        margin: 200px 0px;
+    }
+
+    .destination-row3>.destination-image7 .section-title {
+        margin: 200px 0px;
+    }
+
     .destination-row2 {
         grid-template-columns: repeat(1,1fr);
     }
@@ -810,8 +836,23 @@ footer figcaption {
 
     /* Why Section */
 
+    .why-bannerA .section-title {
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .why-bannerB .section-title {
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
     .why-banner2>div {
         margin: 0px;
+    }
+
+    .why-banner2>div .section-title {
+        margin-top: 32px;
+        margin-bottom: 16px;
     }
 
 
@@ -821,16 +862,16 @@ footer figcaption {
         margin-left: 0;
     }
 
-    .deals-box h3 {
-        margin-top: 16px;
-    }
-
     .deals-icon1,
     .deals-icon-container2 {
         justify-content: flex-start;
     }
 
     /* Place Section */
+
+    .place .section-title {
+        line-height: 30px;
+    }
 
     .place-container img {
         width: 100vw;
