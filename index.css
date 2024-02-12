@@ -82,11 +82,13 @@ body {
     background-repeat: no-repeat;
     border-radius: 16px;
     margin-top: 60px;
+    width: 100%;
+    height: 70vh;
 }
 
 .banner-image-overlay {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
     border-radius: 16px;
 }
@@ -96,7 +98,7 @@ body {
     font-size: 4rem;
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 80px;
 }
 
 .banner-description {
@@ -119,7 +121,7 @@ body {
     gap: 24px;
     margin: 48px 320px 0 320px;
     position: relative;
-    bottom: 150px;
+    bottom: 250px;
 }
 
 .fa-chevron-down {
@@ -485,6 +487,11 @@ body {
     margin-bottom: 24px;
 }
 
+.deals-icon-container2 {
+    display: flex;
+    gap: 24px;
+}
+
 .deals-icon1 {
     display: flex;
     align-items: center;
@@ -711,21 +718,27 @@ footer figcaption {
 /* Mobile Devices */
 
 @media screen and (max-width: 600px) {
+
+    /* Shared */
+
+    .section-title {
+        font-size: 1.25rem;
+        line-height: 30px;
+    }
+
+    .section-description {
+        font-size: 0.875rem;
+        line-height: 24px;
+    }
+
     .banner-button-container,
     .tours-container,
     .destination-row1,
     .why-banner1,
+    .deals-icon,
     .place-container,
     .newsletter-container {
         flex-direction: column;
-    }
-
-    .banner-button-container {
-        align-items: center;
-    }
-
-    .destination-row2 {
-        grid-template-columns: repeat(1,1fr);
     }
 
     .destination-row2,
@@ -738,7 +751,44 @@ footer figcaption {
     .destination-image5,
     .destination-image6,
     .destination-image7 {
-        width: 100vw;
+        width: 90vw;
+    }
+
+    .nav-title {
+        font-size: 1.346rem;
+        display: flex;
+        gap: 16px;
+    }
+
+    .nav-content {
+        display: none;
+    }
+
+    .banner-image {
+        height: 0%;
+    }
+
+    .banner-image-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-title {
+        font-size: 1.375rem;
+    }
+
+    .banner-description {
+        font-size: 0.875rem;
+    }
+
+    .banner-button-container {
+        width: 100%;
+        align-items: center;
+        margin: 300px auto;
+    }
+
+    .destination-row2 {
+        grid-template-columns: repeat(1,1fr);
     }
 
     .destination-row3 {
@@ -749,8 +799,25 @@ footer figcaption {
         margin: 0px;
     }
 
+    .deals-box {
+        margin-left: 0;
+    }
+
+    .deals-icon1,
+    .deals-icon-container2 {
+        justify-content: flex-start;
+    }
+
     .place-container img {
         width: 100vw;
+    }
+
+    .place-container li {
+        font-size: 0.875rem;
+    }
+
+    .place-image h3 {
+        font-size: 1.25rem;
     }
 
     .newsletter-container {
@@ -762,7 +829,15 @@ footer figcaption {
     }
 
     .newsletter-input {
-        padding-right: 200px;
+        padding-right: 180px;
+    }
+
+    .newsletter .newsletter-button {
+        padding: 14px 140px;
+    }
+
+    .newsletter-image .newsletter-button {
+        display: none;
     }
 
     footer>hr {
