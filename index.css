@@ -453,6 +453,11 @@ body {
     margin-left: 535px;
 }
 
+.deals-image2 .deals-box {
+    margin-left: 55px;
+    margin-right: 535px;
+}
+
 .deals-box .section-title {
     font-size: 1.5rem;
     font-weight: 800;
@@ -859,7 +864,13 @@ footer figcaption {
     /* Deals Section */
 
     .deals-box {
-        margin-left: 0;
+        margin: 20px;
+        margin-top: 200px;
+    }
+
+    .deals-image2 .deals-box {
+        margin: 20px;
+        margin-top: 200px;
     }
 
     .deals-icon1,
