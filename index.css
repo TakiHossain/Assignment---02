@@ -863,18 +863,18 @@ footer figcaption {
 
     /* Deals Section */
 
-    .deals-box {
-        margin: 20px;
-        margin-top: 200px;
-    }
-
     .deals-box-content {
         padding: 30px;
     }
 
+    .deals-box {
+        margin: 20px;
+        margin-top: 100px;
+    }
+
     .deals-image2 .deals-box {
         margin: 20px;
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
     .deals-icon1,
